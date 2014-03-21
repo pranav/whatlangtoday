@@ -1,0 +1,10 @@
+{
+  "name": "whatlangtoday",
+  "description": "Keep track of what language you wrote in today",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "coffee-script": "1.7.1"
+  }
+}
