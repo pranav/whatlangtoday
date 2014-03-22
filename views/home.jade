@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title=Whatlangtoday
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/static/css/style.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:300,400,700', type='text/css')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')
+
+  body
+    .container
+      h1.text-center What have you worked with today?
+      form(role='form')
+        #inputs.form-group.col-sm-6.column-center
+          input(type='text', class='form-control workform', placeholder='Maybe coffeescript?')
+        .form-group.col-sm-6.column-center.text-center
+          button(type='button', class='btn btn-primary btn-lg') Submit
+    script(src='/static/js/whatlang.js')
+

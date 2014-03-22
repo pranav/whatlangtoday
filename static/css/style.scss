@@ -1,5 +1,18 @@
 
 h1 {
   font-weight: 300;
+  font-family: 'Lato', 'Arial';
 }
 
+input.workform {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Lato', 'Arial';
+  height: 50px;
+  margin-top: 15px;
+}
+
+.column-center {
+  float: none;
+  margin: 20px auto 0 auto;
+}
